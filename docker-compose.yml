@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: math-pierwszaki
+    ports:
+      - "8502:8502"
+    restart: unless-stopped
